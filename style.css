@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    padding: 40px;
+}
+
+main{
+    background-color: white;    
+    padding: 30px;
+}
+
+header{
+    color:#389598;
+    height:100px;
+    position:relative;
+    margin: bottom 5px;
+}
+
+.container{
+    padding-top: 25px;    
+    clear:both;
+    content:"";
+    display:table;
+}
+
+.intro{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.intro>h1{
+    float:left;
+    color:black;
+}
+
+.intro>h3{
+    float:right;
+}
+
+.img{
+    height: 150px;
+    width: 220px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.number{
+    color: grey;
+}
+
+section div{
+    width: 220px;
+}
+
+section{
+    width: 220px;
+    margin: 8px 8px;
+    float: left;
+
+}
+
+.album1 .img{
+    background-image: url(https://www.liberopensiero.eu/wp-content/uploads/2021/05/535baeeb-a332-49f9-853f-1efad5527b34.jpg);
+}
+
+.album2 .img{
+    background-image: url(https://ilquotidianoinclasse.ilsole24ore.com/wp-content/uploads/2017/03/3903161801c977c562bcc9a87628201a4.jpg);
+}
+
+.album3 .img{
+    background-image: url(https://static2-viaggi.corriereobjects.it/wp-content/uploads/2020/03/yellowstone-1-1080x720.jpg?v=375875);
+}
+
+.album4 .img{
+    background-image: url(https://media.rds.it/web/wp-content/uploads/2021/04/parco-green-list.jpg);
+}
+
+.album5 .img{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTddd-ja27XO3wLKkAOBaJ7TQmh1Q5kKbkyN_nLGQfy0Y5TXPwB4zFCDuirtx5z6TFTQRo&usqp=CAU);
+}
+
+.album6 .img{
+    background-image: url(http://www.massimomarchioro.it/wp-content/uploads/2019/04/arte-natura-massimo-marchioro.jpg);
+}
+
+.album7 .img{
+    background-image: url(https://gognablog.sherpa-gate.com/wp-content/uploads/2020/03/diritti-della-natura-NSTITUT_DU_VERBE_INCARNE_ASCENSION-3.jpg);
+}
+
+.album8 .img{
+    background-image: url(https://i.pinimg.com/474x/b2/5c/ca/b25ccac9112fb5de8cb53831d882ebd3.jpg);
+}
+
+.album9 .img{
+    background-image: url(https://www.scienzaeconoscenza.it/data/blog/fb_resolution/d/deficit-di-natura.jpg);
+}
+
+.album10 .img{
+    background-image: url(https://www.repstatic.it/content/nazionale/img/2018/10/17/152249041-f8468e1f-bef5-4aaa-866c-bcfd98fcd3d9.jpg);
+}
+
+.album11 .img{
+    background-image: url(https://cdn.onb.it/2021/01/natura.jpg);
+}
+
+.album12 .img{
+    background-image: url(https://www.donnad.it/sites/default/files/styles/foglia_569x321/public/201925/natura-citazioni.jpg?itok=vIUBaLzF);
+}
